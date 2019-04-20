@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9815c81-ba06-4b46-aef8-d3feb4e3022c" name="Default Changelist" comment="Logtester added.">
-      <change afterPath="$PROJECT_DIR$/.idea/hello-maven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leonvanbokhorst/LogTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/leonvanbokhorst/LogTesterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9815c81-ba06-4b46-aef8-d3feb4e3022c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leonvanbokhorst/HelloMaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leonvanbokhorst/HelloMaven.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,12 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="661">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -55,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/leonvanbokhorst/LogTesterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="399">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -91,9 +85,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/leonvanbokhorst/LogTester.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/leonvanbokhorst/HelloMaven.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/leonvanbokhorst/LogTesterTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -329,12 +323,34 @@
       <workItem from="1550310065255" duration="2777000" />
       <workItem from="1550335697315" duration="16000" />
       <workItem from="1550335734923" duration="79000" />
-      <workItem from="1555785456375" duration="503000" />
+      <workItem from="1555785456375" duration="762000" />
     </task>
+    <task id="LOCAL-00001" summary="Logtester added.">
+      <created>1555785995956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555785995956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LogTesterTest - 2019.04.20 at 20h 44m 34s.xml">
+      <configuration name="LogTesterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogTesterTest - 2019.04.20 at 20h 44m 47s.xml">
+      <configuration name="LogTesterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogTesterTest - 2019.04.20 at 20h 46m 03s.xml">
+      <configuration name="LogTesterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogTesterTest - 2019.04.20 at 20h 46m 28s.xml">
+      <configuration name="LogTesterTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8652000" />
+    <option name="totallyTimeSpent" value="8911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
@@ -346,7 +362,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.5222136" visible="true" weight="0.151649" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.5222136" visible="true" weight="0.151649" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Key Promoter X" order="7" sideWeight="0.47778645" side_tool="true" visible="true" weight="0.15069583" />
       <window_info anchor="bottom" id="SonarLint" />
@@ -357,12 +373,12 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.21044427" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21044427" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -396,14 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leonvanbokhorst/HelloMaven.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -413,8 +421,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/leonvanbokhorst/LogTesterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
