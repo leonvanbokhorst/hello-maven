@@ -5,29 +5,46 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    ./stages/build/maven-runner.sh mvn -B -DskipTests clean package
+                    echo
+                    echo '****************************************'
+                    echo '*** BUILD STAGE'
+                    echo '****************************************'
+                    echo
+                    ./jenkins/build/mvn.sh mvn -B -DskipTests clean package
                 '''
             }
         }
         stage('Test') {
             steps {
                 sh '''
-                    echo 'Testing...'
+                    echo
+                    echo '****************************************'
+                    echo '*** TEST STAGE'
+                    echo '****************************************'
+                    echo
                 '''
             }
         }
         stage('Push') {
             steps {
                 sh '''
-                    echo 'Push it. Push it real good...'
+                    echo
+                    echo '****************************************'
+                    echo '*** PUSH STAGE'
+                    echo '****************************************'
+                    echo
                 '''
             }
-        }        
+        }
         stage('Deploy') {
             steps {
                 sh '''
-                    echo 'Deploying...'
-                '''
+                    echo
+                    echo '****************************************'
+                    echo '*** DEPLOY STAGE'
+                    echo '****************************************'
+                    echo
+               '''
             }
         }
     }
