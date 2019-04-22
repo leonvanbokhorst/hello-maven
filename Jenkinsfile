@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    ./stages/build/mavenrunner.sh mvn -B -DskipTests clean package
+                    ./stages/build/maven-runner.sh mvn -B -DskipTests clean package
                 '''
             }
         }
