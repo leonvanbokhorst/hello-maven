@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '''
+                sh -x '''
                     echo
                     echo '****************************************'
                     echo '*** BUILD STAGE'
